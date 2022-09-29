@@ -1,0 +1,331 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* general settings */
+h1, h2, h4, h5, h6, p	{
+	color: #FFFFFF;
+}
+.button {
+	width: 278px;
+	height: 50px;
+	font-size: 16px;
+	background-color: #8DD83D;
+	border-radius: 5px;
+	margin-bottom: 27px;
+	color: #FAFAFA;
+	border: none;
+}
+/* general settings */
+
+.body {
+	background-color: #373A3C;
+	font-family: Arial, Helvetica, sans-serif;
+}
+		.header {
+			padding: 15px 0;
+			background-color: #373A3C;
+		}
+				.nav {
+					display: flex;
+					justify-content: space-between;
+					margin: 0 auto;
+					width: 1024px;
+					
+				}
+						.xBoxLogo {
+							height: 30px;
+							width: 96px;
+							background-image: url(../images_disaine/Group.svg);
+							background-repeat: no-repeat;
+							background-size: 100%;
+							background-position: center;
+						}
+						.menu {
+							display: flex;
+							justify-content: space-evenly;
+							width: 533px;
+							align-items: center;
+						}
+								.linkHeader {
+									text-decoration: none;
+									color: #ffffffa9;
+									font-size: 16px;
+								}
+								.linkHeader:hover {
+									color: white;
+								}
+								.my {
+									display: flex;
+									width: 200px;
+									justify-content: space-around;
+									align-items: center;
+								}
+										.user {
+											height: 30px;
+											width: 25px;
+											background-image: url(../images_disaine/user.svg);
+											background-position: center;
+											background-repeat: no-repeat;
+											background-size: 100%;
+										}
+										.checkMark {
+											height: 20px;
+											width: 20px;
+											background-image: url(../images_disaine/Shape.svg);
+											background-position: center;
+											background-repeat: no-repeat;
+											background-size: 100%;
+										}
+		.main {
+			margin: 0 auto;
+			position: relative;
+		}
+				.mainBg {
+					width: 100%;
+				}
+				.mainText_and_Button {
+					position: absolute;
+					top: 32%;
+					left: 60%;
+				}
+				.textMain_H1 {
+					font-size: 36px;
+					line-height: 43px;
+				}
+				.textMain_P {
+					font-size: 24px;
+				}
+				.twoButton {
+					margin-top: 35px;
+				}
+						.buttonMainRight {
+							width: 136px;
+							height: 38px;
+							border-radius: 5px;
+							background-color:#8DD83D;
+							margin-right:13px ;
+							font-size: 16px;
+						}
+						.buttonMainRight:hover {
+							border: 5px;
+							border-color: #FFFFFF;
+						}
+						.buttonMainLeft {
+							width: 148px;
+							height: 38px;
+							border-radius: 5px;
+							background-color: #828282;
+							font-size: 16px;
+						}
+
+
+
+
+		.price {
+			background-color: #373A3C;
+			margin: 0 auto;
+			width: 1024px;
+		}
+				.priceTitle {
+					text-align: center;
+					margin-top: 64px;
+					margin-bottom: 44px;
+				}
+						.logoXboxPrice {
+							display: inline-block;
+							background-image: url(../images_disaine/logoXbox.svg);
+							background-size:contain;
+							background-repeat: no-repeat;
+							width: 63px;
+							height: 63px;
+							
+						}
+				
+						.price_H2 {
+							font-size: 48px;
+							margin-top: 16px;
+						}
+						.price_Paragraf {
+							font-size: 36px;
+						}
+				.priceBlockThree {
+					display: flex;
+					justify-content: space-between;
+					margin-bottom: 162px;
+
+				}
+				.mixer{
+					margin-top:calc((180px - 61px)/2);
+					margin-bottom:calc((180px - 61px)/2);
+				}
+				.gold {
+					margin-top:calc((180px - 114px)/2);
+					margin-bottom:calc((180px - 114px)/2);
+				}
+				.div_Block {
+					margin: 0 0 0 22px;
+				}
+				
+						.block {
+							display: flex;
+							flex-direction:column;
+							justify-content: space-between;
+							align-items: center;
+							background-color: #FAFAFA;
+							border: 1px solid #8DD83D;
+							min-height: 420px;
+							width: 318px;
+						}
+								.blockText {
+									margin-bottom: 13px;
+									font-size: 18px;
+									color: black;
+								}
+								.blockText_H3 {
+									font-size: 24px;
+								}
+
+
+
+		.play {
+			margin: 0 auto;
+			position: relative;
+		}
+				.playBg {
+					width: 100%;
+				}
+				.contenerPlay {
+					position: absolute;
+					display: flex;
+					justify-content: space-evenly;
+					flex-direction: column;
+					top: 25%;
+					left: 16%;
+					min-height:220px ;
+					width: 533px;
+				}
+						.contenerPlayButton {
+							display: inline-block;
+						}	
+						.blockGrey {
+								background-color: #828282;
+								width: 207px;
+								margin-bottom:0 ;
+						}
+						.blockGreen {
+							margin-bottom:0 ;
+							margin-left: 15px;
+						}
+						.play_H4 {
+							font-size: 48px;
+						}
+						.playText {
+							font-size: 24px;
+						}
+
+
+
+		.footer {
+			min-height: 395px;
+			background-color: #373A3C;
+
+		}
+				.Support {
+					display: flex;
+					width: 1024px;
+					margin: 58px auto;
+
+				}
+						.Games {
+							display: flex;
+							flex-direction: column;
+							justify-content: space-between;
+							height: 204px;
+						}
+						.marginLeft {
+							margin-left: 276px;
+						}
+						.footerH5 {
+							font-size: 18px;
+						
+						}
+						.margin_bottom {
+							margin-bottom: 30px;
+						}
+						.footerParagraf {
+							font-size: 14px;
+						}
+				.hr {
+					width: 1024px;
+					margin: 0 auto;
+				}
+				.Microsoft {
+					display: flex;
+					justify-content: space-between;
+					width: 1024px;
+					margin: 0 auto;
+				}
+				.social {
+					display: inline-block;
+					text-align: center;
+					margin-left: 256px;
+				}
+				.images_footer {
+					display: flex;
+					justify-content: space-between;
+					width: 91px;
+				}
+				.hr {
+					height: 10px;
+					border:solid #FFFFFF;
+					border-top: 4px;
+					border-left: 0;
+					border-right: 0;
+					margin-bottom: 19px;
+				}
